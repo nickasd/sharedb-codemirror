@@ -1,11 +1,11 @@
 @import url("../node_modules/codemirror/lib/codemirror.css");
 
 .CodeMirror {
-    border: 1px solid black;
-    height: 500px;
-    width: 500px;
+	border: 1px solid black;
+	height: 500px;
+	width: 500px;
 }
 
 button.active {
-    background-color: deepskyblue;
+	background-color: deepskyblue;
 }

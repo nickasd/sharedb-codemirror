@@ -1,4 +1,4 @@
-# ShareDB-CodeMirror 
+# ShareDB-CodeMirror
 CodeMirror bindings for ShareDB. Adapted from [@ejones](https://github.com/ejones)'s [sharedb-codemirror](https://github.com/ejones/sharedb-codemirror).
 
 ## Usage
@@ -12,9 +12,9 @@ var ShareDBCodeMirror = require('sharedb-codemirror');
 
 var shareDBCodeMirror = new ShareDBCodeMirror(codeMirror, {key: 'content'));
 shareDBCodeMirror.attachDoc(shareDBDoc, (error) => {
-    if (error) {
-        console.error(error);
-    }
+	if (error) {
+		console.error(error);
+	}
 });
 ```
 
