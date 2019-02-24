@@ -4,8 +4,6 @@ var CodeMirror = require('codemirror');
 require('codemirror/mode/javascript/javascript');
 var ShareDBCodeMirror = require('../sharedb-codemirror');
 
-require('./style.css');
-
 var ports = {sharedb: 8112, app: 8080};
 var debug = false;
 

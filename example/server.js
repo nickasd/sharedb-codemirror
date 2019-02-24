@@ -21,7 +21,7 @@ server.listen(ports.sharedb, () => {
 });
 var app = express();
 app.use(express.static('.'));
-app.use(express.static('/../node_modules'));
+app.use(express.static('../node_modules'));
 app.listen(ports.app, () => {
 	console.log(`App: listening on port ${ports.app}`);
 });
